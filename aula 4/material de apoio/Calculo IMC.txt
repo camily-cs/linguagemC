@@ -1,0 +1,24 @@
+Atividade:
+App para calcular o IMC.
+
+             peso
+imc   =  ____________
+                  2
+            altura
+
+//variáveis
+imc,peso,altura //numéricas não inteiras
+
+//entrada
+peso,altura
+
+//processamento
+imc = peso / (altura * altura)
+
+//saída
+imc
+
+
+
+
+
