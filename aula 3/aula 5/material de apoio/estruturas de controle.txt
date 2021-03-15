@@ -1,0 +1,69 @@
+Estruturas de controle:
+
+- condicionais
+- laços (repetições)
+
+Condicionais:
+
+Condição: (verdadeira ou falsa)
+
+if(){}
+
+if(condição){//condição verdadeira}
+
+if (condição){
+  //condição verdadeira
+}
+
+Obs: Custo operacional
+
+< (menor que) 1 operador
+>= (maior ou igual) 2 operadores de comparação + 1 operador lógico
+
+
+________________________________
+if (condição){
+  //condição verdadeira
+} else {
+  //condição falsa
+}
+
+Observação: Uma condição não pode ser verdadeira e falsa ao mesmo tempo.
+
+_________________________________
+if (condição 1){
+  //condição1 verdadeira
+} else if (condição 2) {
+  //condição2 verdadeira
+} else if (condição 3) {
+  //condição3 verdadeira
+} else {
+  //nenhuma das condições anteriores verdadeiras
+}
+
+Obs: Nesta estrutura o else final não é obrigatório
+
+___________________________________________________
+switch case
+Esta estrutura não faz a análise de um "teste lógico", o switch case faz a análise do conteúdo de variáveis do tipo char ou int, e de acordo com o conteúdo (case) executa uma ação.
+
+int variavel;
+
+switch(variavel){
+  case 1:
+    //executar caso o conteúdo da variável seja 1
+    break; //interrompe a execução da estrutura
+  case 2:
+    //executar caso o conteúdo da variável seja 2
+    break;
+// case 3 case 4 ...
+  default:
+    //executar caso o conteúdo da variável não esteja nos casos acima
+  break; 
+}
+
+Obs: 
+1) Caso encontre o conteúdo da variável a estrutura é encerrada
+2) O default não é obrigatório
+
+
